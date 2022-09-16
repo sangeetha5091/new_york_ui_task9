@@ -8,3 +8,13 @@ body {
   font-weight: 900;
   font-size: 39px;
 }
+@media screen and (max-width: 769px) {
+ .title-text {
+  font-size: 29px;
+}
+}
+@media screen and (max-width: 569px) {
+ .title-text {
+  font-size: 20px;
+}
+}
