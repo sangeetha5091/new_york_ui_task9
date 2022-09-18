@@ -1,4 +1,4 @@
-const api_url = `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=0XtYP9o7mYGauHRHggW4PkmHGVQmzpoX`;
+const api_url = `https://api.nytimes.com/svc/topstories/v2/home.json?api-key`;
 async function startAPI(api) {
   const res = await fetch(api);
   const data = await res.json();
@@ -8,42 +8,42 @@ async function startAPI(api) {
 startAPI(api_url);
 
 function homeurl() {
-  const api = `https://api.nytimes.com/svc/topstories/v2/home.json?api-key=0XtYP9o7mYGauHRHggW4PkmHGVQmzpoX`;
+  const api = `https://api.nytimes.com/svc/topstories/v2/home.json?api-key`;
   getAPI(api);
 }
 function worldurl() {
-  const api = `https://api.nytimes.com/svc/topstories/v2/world.json?api-key=0XtYP9o7mYGauHRHggW4PkmHGVQmzpoX`;
+  const api = `https://api.nytimes.com/svc/topstories/v2/world.json?api-key`;
   getAPI(api);
 }
 function politicsurl() {
-  const api = `https://api.nytimes.com/svc/topstories/v2/politics.json?api-key=0XtYP9o7mYGauHRHggW4PkmHGVQmzpoX`;
+  const api = `https://api.nytimes.com/svc/topstories/v2/politics.json?api-key`;
   getAPI(api);
 }
 
 function technologyurl() {
-  const api = `https://api.nytimes.com/svc/topstories/v2/technology.json?api-key=0XtYP9o7mYGauHRHggW4PkmHGVQmzpoX`;
+  const api = `https://api.nytimes.com/svc/topstories/v2/technology.json?api-key`;
   getAPI(api);
 }
 
 function scienceurl() {
-  const api = `https://api.nytimes.com/svc/topstories/v2/science.json?api-key=0XtYP9o7mYGauHRHggW4PkmHGVQmzpoX`;
+  const api = `https://api.nytimes.com/svc/topstories/v2/science.json?api-key`;
   getAPI(api);
 }
 
 function sportsurl() {
-  const api = `https://api.nytimes.com/svc/topstories/v2/sports.json?api-key=0XtYP9o7mYGauHRHggW4PkmHGVQmzpoX`;
+  const api = `https://api.nytimes.com/svc/topstories/v2/sports.json?api-key`;
   getAPI(api);
 }
 function artsurl() {
-  const api = `https://api.nytimes.com/svc/topstories/v2/arts.json?api-key=0XtYP9o7mYGauHRHggW4PkmHGVQmzpoX`;
+  const api = `https://api.nytimes.com/svc/topstories/v2/arts.json?api-key`;
   getAPI(api);
 }
 function fashionurl() {
-  const api = `https://api.nytimes.com/svc/topstories/v2/fashion.json?api-key=0XtYP9o7mYGauHRHggW4PkmHGVQmzpoX`;
+  const api = `https://api.nytimes.com/svc/topstories/v2/fashion.json?api-key`;
   getAPI(api);
 }
 function foodurl() {
-  const api = `https://api.nytimes.com/svc/topstories/v2/food.json?api-key=0XtYP9o7mYGauHRHggW4PkmHGVQmzpoX`;
+  const api = `https://api.nytimes.com/svc/topstories/v2/food.json?api-key`;
   getAPI(api);
 }
 
