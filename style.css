@@ -18,3 +18,19 @@ body {
   font-size: 20px;
 }
 }
+/* footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 0;
+  background-color: #2d2d2d;
+}
+/* footer */
+footer p {
+  margin-bottom: 0;
+  padding: 5px;
+  color: rgb(177, 177, 177);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
